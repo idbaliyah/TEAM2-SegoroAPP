@@ -5,7 +5,7 @@ import cucumber.api.java.Before;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class Hooks {
+public class WebDriverInit {
 
     public static WebDriver webDriver;
 
@@ -18,9 +18,10 @@ public class Hooks {
         webDriver.get(URL);
         webDriver.manage().window().maximize();
     }
+
     @After
     public void closeBrowser() throws InterruptedException {
-        Thread.sleep(50000);
+        Thread.sleep(5000);
         webDriver.quit();
     }
 }
