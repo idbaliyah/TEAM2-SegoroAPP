@@ -45,4 +45,5 @@ public class LoginPageStep {
     public void clickOkButtonModal() {
         loginPage.clickOkSeeModal();
     }
+
 }

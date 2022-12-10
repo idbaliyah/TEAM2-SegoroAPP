@@ -5,6 +5,8 @@ import cucumber.api.java.Before;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import java.util.concurrent.TimeUnit;
+
 public class WebDriverInit {
 
     public static WebDriver webDriver;
@@ -17,6 +19,7 @@ public class WebDriverInit {
         String URL = "https://segoro-app.vercel.app";
         webDriver.get(URL);
         webDriver.manage().window().maximize();
+        webDriver.manage().timeouts().implicitlyWait(120, TimeUnit.SECONDS);
     }
 
     @After
