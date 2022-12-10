@@ -1,10 +1,7 @@
 package StepDefinition;
 
 import com.idbaliyah.pageObject.LoginPage;
-import cucumber.api.java.en.And;
-import cucumber.api.java.en.Given;
-import cucumber.api.java.en.Then;
-import cucumber.api.java.en.When;
+import cucumber.api.java.en.*;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.WebDriver;
 
@@ -18,6 +15,8 @@ public class LoginPageStep {
         this.webDriver = WebDriverInit.webDriver;
     }
 
+    //Step login page as admin -fill mail,password,click login button, click ok button on modal
+    //valid data login
     @Given("admin is already on login page")
     public void adminIsAlreadyOnTheLoginPage() {
         loginPage = new LoginPage(webDriver);
@@ -34,8 +33,16 @@ public class LoginPageStep {
     }
 
     @And("click login button")
-    public void clickLoginButton() throws InterruptedException {
+    public void clickLoginButton() {
         loginPage.clickLoginButton();
     }
 
+    @Then("see modal successfully login")
+    public void seeModalSuccessfullyLogin() {
+        loginPage.waitSeeModal();
+    }
+    @When("click OK button modal")
+    public void clickOkButtonModal() {
+        loginPage.clickOkSeeModal();
+    }
 }

@@ -1,5 +1,6 @@
 package com.idbaliyah.pageObject;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 
@@ -11,4 +12,5 @@ public class HomePage {
         PageFactory.initElements(driver, this);
         this.driver = driver;
     }
+
 }

@@ -14,7 +14,7 @@ public class WebDriverInit {
         System.setProperty("webdriver.chrome.driver",
                 System.getProperty("user.dir") + "\\driver\\chromedriver.exe");
         webDriver= new ChromeDriver();
-        String URL = "https://segoro-fe.vercel.app";
+        String URL = "https://segoro-app.vercel.app";
         webDriver.get(URL);
         webDriver.manage().window().maximize();
     }
