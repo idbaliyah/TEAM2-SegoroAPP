@@ -8,3 +8,4 @@ Feature: Login Page
     When admin fill email address field with data "admin@mail.com"
     And fill password field with data "qwerty"
     And click login button
+    But click OK button after login successfully

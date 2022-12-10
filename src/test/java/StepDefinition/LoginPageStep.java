@@ -36,8 +36,6 @@ public class LoginPageStep {
     @And("click login button")
     public void clickLoginButton() throws InterruptedException {
         loginPage.clickLoginButton();
-        webDriver.switchTo().alert();
-        Thread.sleep(3000);
     }
 
 }
