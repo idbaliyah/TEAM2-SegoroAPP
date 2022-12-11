@@ -1,4 +1,4 @@
-StepDefinition\LoginPageStep.class
 StepDefinition\RunTest.class
 StepDefinition\HomePageStep.class
-StepDefinition\WebDriverInit.class
+StepDefinition\LoginStep.class
+StepDefinition\Hooks.class

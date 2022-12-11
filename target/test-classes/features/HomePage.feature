@@ -1,4 +1,4 @@
-@Test
+@HomePage
   Feature: Home Page
     Admin on home page
 
@@ -33,5 +33,3 @@
     Scenario: Admin logout form segoroapp
       Given admin is already on home page
       When click logout button
-      Then see modal successfully logout
-      When click OK button modal
