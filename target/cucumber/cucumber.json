@@ -3,41 +3,18 @@
     "line": 2,
     "elements": [
       {
-        "before": [
-          {
-            "result": {
-              "duration": 6379947000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.openBrowser()"
-            }
-          }
-        ],
-        "line": 6,
-        "name": "Admin success login with valid username and password",
+        "line": 4,
+        "name": "",
         "description": "",
-        "id": "login-page;admin-success-login-with-valid-username-and-password",
-        "after": [
-          {
-            "result": {
-              "duration": 5830382300,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.closeBrowser()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
+        "type": "background",
+        "keyword": "Background",
         "steps": [
           {
             "result": {
-              "duration": 249842300,
+              "duration": 279083900,
               "status": "passed"
             },
-            "line": 7,
+            "line": 5,
             "name": "user is already on login page",
             "match": {
               "location": "LoginStep.userIsAlreadyOnTheLoginPage()"
@@ -46,136 +23,10 @@
           },
           {
             "result": {
-              "duration": 265589800,
+              "duration": 154766000,
               "status": "passed"
             },
-            "line": 8,
-            "name": "user fill email address field with data \"admin2@mail.com\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "admin2@mail.com",
-                  "offset": 41
-                }
-              ],
-              "location": "LoginStep.userFillEmailAddressFieldWithDataEmail(String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 254422900,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "fill password field with data \"qwerty\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "qwerty",
-                  "offset": 31
-                }
-              ],
-              "location": "LoginStep.fillPasswordFieldWithData(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 143492100,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "click login button",
-            "match": {
-              "location": "LoginStep.clickLoginButton()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 2804182900,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "see modal successfully login",
-            "match": {
-              "location": "LoginStep.seeModalSuccessfullyLogin()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 2016316000,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "click OK button modal",
-            "match": {
-              "location": "LoginStep.clickOkButtonModal()"
-            },
-            "keyword": "When "
-          }
-        ],
-        "tags": [
-          {
-            "line": 5,
-            "name": "@Positive"
-          },
-          {
-            "line": 5,
-            "name": "@admin"
-          }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 3494689900,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.openBrowser()"
-            }
-          }
-        ],
-        "line": 15,
-        "name": "Owner success login with valid username and password",
-        "description": "",
-        "id": "login-page;owner-success-login-with-valid-username-and-password",
-        "after": [
-          {
-            "result": {
-              "duration": 5810165400,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.closeBrowser()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 102400,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "user is already on login page",
-            "match": {
-              "location": "LoginStep.userIsAlreadyOnTheLoginPage()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 611323900,
-              "status": "passed"
-            },
-            "line": 17,
+            "line": 6,
             "name": "user fill email address field with data \"user1@mail.com\"",
             "match": {
               "arguments": [
@@ -190,10 +41,10 @@
           },
           {
             "result": {
-              "duration": 255928200,
+              "duration": 133109300,
               "status": "passed"
             },
-            "line": 18,
+            "line": 7,
             "name": "fill password field with data \"qwerty\"",
             "match": {
               "arguments": [
@@ -208,10 +59,10 @@
           },
           {
             "result": {
-              "duration": 155970600,
+              "duration": 113943300,
               "status": "passed"
             },
-            "line": 19,
+            "line": 8,
             "name": "click login button",
             "match": {
               "location": "LoginStep.clickLoginButton()"
@@ -220,10 +71,10 @@
           },
           {
             "result": {
-              "duration": 2825317000,
+              "duration": 2776404200,
               "status": "passed"
             },
-            "line": 20,
+            "line": 9,
             "name": "see modal successfully login",
             "match": {
               "location": "LoginStep.seeModalSuccessfullyLogin()"
@@ -232,38 +83,186 @@
           },
           {
             "result": {
-              "duration": 1949803200,
+              "duration": 1708752300,
               "status": "passed"
             },
-            "line": 21,
+            "line": 10,
             "name": "click OK button modal",
             "match": {
               "location": "LoginStep.clickOkButtonModal()"
             },
             "keyword": "When "
           }
-        ],
-        "tags": [
+        ]
+      },
+      {
+        "comments": [
           {
-            "line": 14,
-            "name": "@Positive"
+            "line": 12,
+            "value": "#  Scenario: Owner goto venue page"
+          },
+          {
+            "line": 13,
+            "value": "#    Given owner is already on home page"
           },
           {
             "line": 14,
-            "name": "@owner"
+            "value": "#    When owner click venue button"
+          },
+          {
+            "line": 15,
+            "value": "#"
+          },
+          {
+            "line": 16,
+            "value": "#  Scenario: Owner goto admin page"
+          },
+          {
+            "line": 17,
+            "value": "#    Given owner is already on home page"
+          },
+          {
+            "line": 18,
+            "value": "#    When click owner profile button"
+          },
+          {
+            "line": 19,
+            "value": "#"
+          },
+          {
+            "line": 20,
+            "value": "#  Scenario: Owner goto order history page"
+          },
+          {
+            "line": 21,
+            "value": "#    Given owner is already on home page"
+          },
+          {
+            "line": 22,
+            "value": "#    When click owner booking history button"
+          },
+          {
+            "line": 23,
+            "value": "#"
+          },
+          {
+            "line": 24,
+            "value": "#  Scenario: Owner goto pay venue page"
+          },
+          {
+            "line": 25,
+            "value": "#    Given owner is already on home page"
+          },
+          {
+            "line": 26,
+            "value": "#    When click owner pay venue button"
+          },
+          {
+            "line": 27,
+            "value": "#"
+          },
+          {
+            "line": 28,
+            "value": "#  Scenario: Owner goto schedule page"
+          },
+          {
+            "line": 29,
+            "value": "#    Given owner is already on home page"
+          },
+          {
+            "line": 30,
+            "value": "#    When click owner my schedule button"
+          }
+        ],
+        "before": [
+          {
+            "result": {
+              "duration": 5239289100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "Owner logout form Segoroapp",
+        "description": "",
+        "id": "owner-homepage;owner-logout-form-segoroapp",
+        "after": [
+          {
+            "result": {
+              "duration": 5746618400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4353600,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "owner is already on home page",
+            "match": {
+              "location": "OwnerHomePageStep.ownerIsAlreadyOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 72434300,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "click owner logout button",
+            "match": {
+              "location": "OwnerHomePageStep.clickOwnerLogoutButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 55031600,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "wait logout pop up",
+            "match": {
+              "location": "OwnerHomePageStep.waitLogoutPopUp()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 169201800,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "click OK Logout",
+            "match": {
+              "location": "OwnerHomePageStep.clickOKLogout()"
+            },
+            "keyword": "Then "
           }
         ]
       }
     ],
-    "name": "Login Page",
-    "description": "Login to page SegoroAPP as ADMIN",
-    "id": "login-page",
+    "name": "Owner HomePage",
+    "description": "",
+    "id": "owner-homepage",
     "keyword": "Feature",
-    "uri": "features/Login.feature",
+    "uri": "features/OwnerHomePage.feature",
     "tags": [
       {
         "line": 1,
-        "name": "@Login"
+        "name": "@HomePageOwner"
       }
     ]
   }
