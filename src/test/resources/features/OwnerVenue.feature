@@ -1,5 +1,5 @@
-@HomePageOwner
-Feature: Owner HomePage
+@VenuePageOwner
+Feature: Owner Venue Page
 
   Background:
     Given user is already on login page
@@ -13,24 +13,21 @@ Feature: Owner HomePage
     Given owner is already on home page
     When owner click venue button
 
-  Scenario: Owner goto owner profile page
+  Scenario: Owner search a venue
     Given owner is already on home page
-    When click owner profile button
+    When owner click venue button
+    And owner fill search with data "Gor Soemantri"
 
-  Scenario: Owner goto order history page
+  Scenario: Owner click filter button
     Given owner is already on home page
-    When click owner booking history button
+    When owner click venue button
+    And owner click filter button
 
-  Scenario: Owner goto pay venue page
+  Scenario: Owner see venue details
     Given owner is already on home page
-    When click owner pay venue button
+    When owner click venue button
+    Then owner click venue card details
 
-  Scenario: Owner goto schedule page
+  Scenario: Owner goto venue page
     Given owner is already on home page
-    When click owner my schedule button
-
-  Scenario: Owner logout form Segoroapp
-    Given owner is already on home page
-    When click owner logout button
-    And wait logout pop up
-    Then click OK Logout
+    When owner click venue card on home page

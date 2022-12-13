@@ -1,4 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("features/OwnerHomePage.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("features/OwnerProfilePage.feature");
 formatter.feature({
   "line": 2,
   "name": "Owner HomePage",
@@ -8,12 +8,12 @@ formatter.feature({
   "tags": [
     {
       "line": 1,
-      "name": "@HomePageOwner"
+      "name": "@ProfilePageOwner"
     }
   ]
 });
 formatter.before({
-  "duration": 5239289100,
+  "duration": 6181522800,
   "status": "passed"
 });
 formatter.background({
@@ -57,7 +57,7 @@ formatter.match({
   "location": "LoginStep.userIsAlreadyOnTheLoginPage()"
 });
 formatter.result({
-  "duration": 279083900,
+  "duration": 157121000,
   "status": "passed"
 });
 formatter.match({
@@ -70,7 +70,7 @@ formatter.match({
   "location": "LoginStep.userFillEmailAddressFieldWithDataEmail(String)"
 });
 formatter.result({
-  "duration": 154766000,
+  "duration": 168868700,
   "status": "passed"
 });
 formatter.match({
@@ -83,35 +83,35 @@ formatter.match({
   "location": "LoginStep.fillPasswordFieldWithData(String)"
 });
 formatter.result({
-  "duration": 133109300,
+  "duration": 145956500,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStep.clickLoginButton()"
 });
 formatter.result({
-  "duration": 113943300,
+  "duration": 118064200,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStep.seeModalSuccessfullyLogin()"
 });
 formatter.result({
-  "duration": 2776404200,
+  "duration": 2694006600,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStep.clickOkButtonModal()"
 });
 formatter.result({
-  "duration": 1708752300,
+  "duration": 7192586400,
   "status": "passed"
 });
 formatter.scenario({
   "comments": [
     {
       "line": 12,
-      "value": "#  Scenario: Owner goto venue page"
+      "value": "#  Scenario: Owner goto owner profile page"
     },
     {
       "line": 13,
@@ -119,15 +119,11 @@ formatter.scenario({
     },
     {
       "line": 14,
-      "value": "#    When owner click venue button"
-    },
-    {
-      "line": 15,
-      "value": "#"
+      "value": "#    When click owner profile button"
     },
     {
       "line": 16,
-      "value": "#  Scenario: Owner goto admin page"
+      "value": "#  Scenario: Owner goto owner edit profile page"
     },
     {
       "line": 17,
@@ -139,110 +135,71 @@ formatter.scenario({
     },
     {
       "line": 19,
-      "value": "#"
-    },
-    {
-      "line": 20,
-      "value": "#  Scenario: Owner goto order history page"
+      "value": "#    And owner click edit profile button"
     },
     {
       "line": 21,
-      "value": "#    Given owner is already on home page"
+      "value": "#  Scenario: Owner goto owner edit profile page"
     },
     {
       "line": 22,
-      "value": "#    When click owner booking history button"
+      "value": "#    Given owner is already on home page"
     },
     {
       "line": 23,
-      "value": "#"
+      "value": "#    When click owner profile button"
     },
     {
       "line": 24,
-      "value": "#  Scenario: Owner goto pay venue page"
-    },
-    {
-      "line": 25,
-      "value": "#    Given owner is already on home page"
-    },
-    {
-      "line": 26,
-      "value": "#    When click owner pay venue button"
-    },
-    {
-      "line": 27,
-      "value": "#"
-    },
-    {
-      "line": 28,
-      "value": "#  Scenario: Owner goto schedule page"
-    },
-    {
-      "line": 29,
-      "value": "#    Given owner is already on home page"
-    },
-    {
-      "line": 30,
-      "value": "#    When click owner my schedule button"
+      "value": "#    And owner click my schedule button"
     }
   ],
-  "line": 32,
-  "name": "Owner logout form Segoroapp",
+  "line": 26,
+  "name": "Owner goto my venues page",
   "description": "",
-  "id": "owner-homepage;owner-logout-form-segoroapp",
+  "id": "owner-homepage;owner-goto-my-venues-page",
   "type": "scenario",
   "keyword": "Scenario"
 });
 formatter.step({
-  "line": 33,
+  "line": 27,
   "name": "owner is already on home page",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 34,
-  "name": "click owner logout button",
+  "line": 28,
+  "name": "click owner profile button",
   "keyword": "When "
 });
 formatter.step({
-  "line": 35,
-  "name": "wait logout pop up",
+  "line": 29,
+  "name": "owner click my venues button",
   "keyword": "And "
-});
-formatter.step({
-  "line": 36,
-  "name": "click OK Logout",
-  "keyword": "Then "
 });
 formatter.match({
   "location": "OwnerHomePageStep.ownerIsAlreadyOnHomePage()"
 });
 formatter.result({
-  "duration": 4353600,
+  "duration": 1259600,
   "status": "passed"
 });
 formatter.match({
-  "location": "OwnerHomePageStep.clickOwnerLogoutButton()"
+  "location": "OwnerHomePageStep.clickOwnerProfileButton()"
 });
 formatter.result({
-  "duration": 72434300,
+  "duration": 71299900,
   "status": "passed"
 });
 formatter.match({
-  "location": "OwnerHomePageStep.waitLogoutPopUp()"
+  "location": "OwnerProfilePageStep.ownerClickMyVenuesButton()"
 });
 formatter.result({
-  "duration": 55031600,
-  "status": "passed"
-});
-formatter.match({
-  "location": "OwnerHomePageStep.clickOKLogout()"
-});
-formatter.result({
-  "duration": 169201800,
-  "status": "passed"
+  "duration": 4587500,
+  "error_message": "java.lang.NullPointerException\r\n\tat StepDefinition.OwnerProfilePageStep.ownerClickMyVenuesButton(OwnerProfilePageStep.java:32)\r\n\tat ✽.And owner click my venues button(features/OwnerProfilePage.feature:29)\r\n",
+  "status": "failed"
 });
 formatter.after({
-  "duration": 5746618400,
+  "duration": 5756453700,
   "status": "passed"
 });
 });
