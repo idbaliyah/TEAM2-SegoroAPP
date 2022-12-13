@@ -1,18 +1,11 @@
 @Login
   Feature: Login Page
-    Login to page SegoroAPP as ADMIN
+    Testing feature login as Admin
 
-    @Positive
-    Scenario: Admin success login with valid username and password
-      Given admin is already on login page
-      When admin fill email address field with data "admin2@mail.com"
-      And fill password field with data "qwerty"
+    Scenario: Admin successfully login
+      Given admin already on login page
+      When fill email address field with email "admin2@mail.com"
+      And fill password field with password "qwerty"
       And click login button
       Then see modal successfully login
-      When click OK button modal
-
-#    Scenario: Admin login invalid username
-#      Given admin is already on login page
-#      When admin fill email address field with data "admin2@mail.com"
-#      And fill password field with data "qwerty"
-#      And click login button
+      But admin click OK button modal success login

@@ -5,22 +5,24 @@ import cucumber.api.java.Before;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import java.util.concurrent.TimeUnit;
+
 public class Hooks {
 
-    public static WebDriver webDriver;
+    public static WebDriver driver;
 
     @Before
     public void openBrowser() {
         System.setProperty("webdriver.chrome.driver",
                 System.getProperty("user.dir") + "\\driver\\chromedriver.exe");
-        webDriver= new ChromeDriver();
+        driver= new ChromeDriver();
         String URL = "https://segoro-app.vercel.app";
-        webDriver.get(URL);
-        webDriver.manage().window().maximize();
+        driver.get(URL);
+        driver.manage().window().maximize();
     }
     @After
     public void closeBrowser() throws InterruptedException {
-        Thread.sleep(5000);
-        webDriver.quit();
+        Thread.sleep(3000);
+        driver.quit();
     }
 }
