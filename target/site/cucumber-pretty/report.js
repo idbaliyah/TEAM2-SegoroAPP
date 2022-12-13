@@ -1,76 +1,76 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("features/HomePage.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("features/OwnerProfilePage.feature");
 formatter.feature({
   "line": 2,
-  "name": "Home Page",
-  "description": "Admin on home page",
-  "id": "home-page",
+  "name": "Owner HomePage",
+  "description": "",
+  "id": "owner-homepage",
   "keyword": "Feature",
   "tags": [
     {
       "line": 1,
-      "name": "@HomePage"
+      "name": "@ProfilePageOwner"
     }
   ]
 });
 formatter.before({
-  "duration": 5545845700,
+  "duration": 6181522800,
   "status": "passed"
 });
 formatter.background({
-  "line": 5,
+  "line": 4,
   "name": "",
   "description": "",
   "type": "background",
   "keyword": "Background"
 });
 formatter.step({
-  "line": 6,
-  "name": "admin is already on login page",
+  "line": 5,
+  "name": "user is already on login page",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 7,
-  "name": "admin fill email address field with data \"admin2@mail.com\"",
+  "line": 6,
+  "name": "user fill email address field with data \"user1@mail.com\"",
   "keyword": "When "
 });
 formatter.step({
-  "line": 8,
+  "line": 7,
   "name": "fill password field with data \"qwerty\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 9,
+  "line": 8,
   "name": "click login button",
   "keyword": "And "
 });
 formatter.step({
-  "line": 10,
+  "line": 9,
   "name": "see modal successfully login",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 11,
+  "line": 10,
   "name": "click OK button modal",
   "keyword": "When "
 });
 formatter.match({
-  "location": "LoginStep.adminIsAlreadyOnTheLoginPage()"
+  "location": "LoginStep.userIsAlreadyOnTheLoginPage()"
 });
 formatter.result({
-  "duration": 217839800,
+  "duration": 157121000,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "admin2@mail.com",
-      "offset": 42
+      "val": "user1@mail.com",
+      "offset": 41
     }
   ],
-  "location": "LoginStep.adminFillEmailAddressFieldWithDataEmail(String)"
+  "location": "LoginStep.userFillEmailAddressFieldWithDataEmail(String)"
 });
 formatter.result({
-  "duration": 247139600,
+  "duration": 168868700,
   "status": "passed"
 });
 formatter.match({
@@ -83,839 +83,123 @@ formatter.match({
   "location": "LoginStep.fillPasswordFieldWithData(String)"
 });
 formatter.result({
-  "duration": 158100800,
+  "duration": 145956500,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStep.clickLoginButton()"
 });
 formatter.result({
-  "duration": 121247200,
+  "duration": 118064200,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStep.seeModalSuccessfullyLogin()"
 });
 formatter.result({
-  "duration": 2823252800,
+  "duration": 2694006600,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStep.clickOkButtonModal()"
 });
 formatter.result({
-  "duration": 1561546900,
+  "duration": 7192586400,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 13,
-  "name": "Admin goto venue page",
-  "description": "",
-  "id": "home-page;admin-goto-venue-page",
-  "type": "scenario",
-  "keyword": "Scenario"
-});
-formatter.step({
-  "line": 14,
-  "name": "admin is already on home page",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 15,
-  "name": "click venue button",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "HomePageStep.adminIsAlreadyOnHomePage()"
-});
-formatter.result({
-  "duration": 1460900,
-  "status": "passed"
-});
-formatter.match({
-  "location": "HomePageStep.clickVenueButton()"
-});
-formatter.result({
-  "duration": 82234400,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 5870358600,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 3039827100,
-  "status": "passed"
-});
-formatter.background({
-  "line": 5,
-  "name": "",
-  "description": "",
-  "type": "background",
-  "keyword": "Background"
-});
-formatter.step({
-  "line": 6,
-  "name": "admin is already on login page",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 7,
-  "name": "admin fill email address field with data \"admin2@mail.com\"",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 8,
-  "name": "fill password field with data \"qwerty\"",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 9,
-  "name": "click login button",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 10,
-  "name": "see modal successfully login",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 11,
-  "name": "click OK button modal",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "LoginStep.adminIsAlreadyOnTheLoginPage()"
-});
-formatter.result({
-  "duration": 91200,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
+  "comments": [
     {
-      "val": "admin2@mail.com",
-      "offset": 42
+      "line": 12,
+      "value": "#  Scenario: Owner goto owner profile page"
+    },
+    {
+      "line": 13,
+      "value": "#    Given owner is already on home page"
+    },
+    {
+      "line": 14,
+      "value": "#    When click owner profile button"
+    },
+    {
+      "line": 16,
+      "value": "#  Scenario: Owner goto owner edit profile page"
+    },
+    {
+      "line": 17,
+      "value": "#    Given owner is already on home page"
+    },
+    {
+      "line": 18,
+      "value": "#    When click owner profile button"
+    },
+    {
+      "line": 19,
+      "value": "#    And owner click edit profile button"
+    },
+    {
+      "line": 21,
+      "value": "#  Scenario: Owner goto owner edit profile page"
+    },
+    {
+      "line": 22,
+      "value": "#    Given owner is already on home page"
+    },
+    {
+      "line": 23,
+      "value": "#    When click owner profile button"
+    },
+    {
+      "line": 24,
+      "value": "#    And owner click my schedule button"
     }
   ],
-  "location": "LoginStep.adminFillEmailAddressFieldWithDataEmail(String)"
-});
-formatter.result({
-  "duration": 381918100,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "qwerty",
-      "offset": 31
-    }
-  ],
-  "location": "LoginStep.fillPasswordFieldWithData(String)"
-});
-formatter.result({
-  "duration": 245040600,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginStep.clickLoginButton()"
-});
-formatter.result({
-  "duration": 93724800,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginStep.seeModalSuccessfullyLogin()"
-});
-formatter.result({
-  "duration": 3246290400,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginStep.clickOkButtonModal()"
-});
-formatter.result({
-  "duration": 1351124600,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 17,
-  "name": "Admin goto admin page",
-  "description": "",
-  "id": "home-page;admin-goto-admin-page",
-  "type": "scenario",
-  "keyword": "Scenario"
-});
-formatter.step({
-  "line": 18,
-  "name": "admin is already on home page",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 19,
-  "name": "click admin button",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "HomePageStep.adminIsAlreadyOnHomePage()"
-});
-formatter.result({
-  "duration": 71400,
-  "status": "passed"
-});
-formatter.match({
-  "location": "HomePageStep.clickAdminButton()"
-});
-formatter.result({
-  "duration": 65171200,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 5868701000,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 3357671900,
-  "status": "passed"
-});
-formatter.background({
-  "line": 5,
-  "name": "",
-  "description": "",
-  "type": "background",
-  "keyword": "Background"
-});
-formatter.step({
-  "line": 6,
-  "name": "admin is already on login page",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 7,
-  "name": "admin fill email address field with data \"admin2@mail.com\"",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 8,
-  "name": "fill password field with data \"qwerty\"",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 9,
-  "name": "click login button",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 10,
-  "name": "see modal successfully login",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 11,
-  "name": "click OK button modal",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "LoginStep.adminIsAlreadyOnTheLoginPage()"
-});
-formatter.result({
-  "duration": 146900,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "admin2@mail.com",
-      "offset": 42
-    }
-  ],
-  "location": "LoginStep.adminFillEmailAddressFieldWithDataEmail(String)"
-});
-formatter.result({
-  "duration": 359281600,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "qwerty",
-      "offset": 31
-    }
-  ],
-  "location": "LoginStep.fillPasswordFieldWithData(String)"
-});
-formatter.result({
-  "duration": 146427500,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginStep.clickLoginButton()"
-});
-formatter.result({
-  "duration": 90763100,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginStep.seeModalSuccessfullyLogin()"
-});
-formatter.result({
-  "duration": 2692128500,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginStep.clickOkButtonModal()"
-});
-formatter.result({
-  "duration": 1874391600,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 21,
-  "name": "Admin goto order history page",
-  "description": "",
-  "id": "home-page;admin-goto-order-history-page",
-  "type": "scenario",
-  "keyword": "Scenario"
-});
-formatter.step({
-  "line": 22,
-  "name": "admin is already on home page",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 23,
-  "name": "click booking history button",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "HomePageStep.adminIsAlreadyOnHomePage()"
-});
-formatter.result({
-  "duration": 116900,
-  "status": "passed"
-});
-formatter.match({
-  "location": "HomePageStep.clickBookingHistoryButton()"
-});
-formatter.result({
-  "duration": 69362500,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 5769483200,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 3103235500,
-  "status": "passed"
-});
-formatter.background({
-  "line": 5,
-  "name": "",
-  "description": "",
-  "type": "background",
-  "keyword": "Background"
-});
-formatter.step({
-  "line": 6,
-  "name": "admin is already on login page",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 7,
-  "name": "admin fill email address field with data \"admin2@mail.com\"",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 8,
-  "name": "fill password field with data \"qwerty\"",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 9,
-  "name": "click login button",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 10,
-  "name": "see modal successfully login",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 11,
-  "name": "click OK button modal",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "LoginStep.adminIsAlreadyOnTheLoginPage()"
-});
-formatter.result({
-  "duration": 91300,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "admin2@mail.com",
-      "offset": 42
-    }
-  ],
-  "location": "LoginStep.adminFillEmailAddressFieldWithDataEmail(String)"
-});
-formatter.result({
-  "duration": 313997700,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "qwerty",
-      "offset": 31
-    }
-  ],
-  "location": "LoginStep.fillPasswordFieldWithData(String)"
-});
-formatter.result({
-  "duration": 195716300,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginStep.clickLoginButton()"
-});
-formatter.result({
-  "duration": 93360800,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginStep.seeModalSuccessfullyLogin()"
-});
-formatter.result({
-  "duration": 2732164800,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginStep.clickOkButtonModal()"
-});
-formatter.result({
-  "duration": 1889849600,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 25,
-  "name": "Admin goto pay venue page",
-  "description": "",
-  "id": "home-page;admin-goto-pay-venue-page",
-  "type": "scenario",
-  "keyword": "Scenario"
-});
-formatter.step({
   "line": 26,
-  "name": "admin is already on home page",
-  "keyword": "Given "
+  "name": "Owner goto my venues page",
+  "description": "",
+  "id": "owner-homepage;owner-goto-my-venues-page",
+  "type": "scenario",
+  "keyword": "Scenario"
 });
 formatter.step({
   "line": 27,
-  "name": "click pay venue button",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "HomePageStep.adminIsAlreadyOnHomePage()"
-});
-formatter.result({
-  "duration": 62100,
-  "status": "passed"
-});
-formatter.match({
-  "location": "HomePageStep.clickPayVenueButton()"
-});
-formatter.result({
-  "duration": 76296700,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 5814362900,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 3139040500,
-  "status": "passed"
-});
-formatter.background({
-  "line": 5,
-  "name": "",
-  "description": "",
-  "type": "background",
-  "keyword": "Background"
-});
-formatter.step({
-  "line": 6,
-  "name": "admin is already on login page",
+  "name": "owner is already on home page",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 7,
-  "name": "admin fill email address field with data \"admin2@mail.com\"",
+  "line": 28,
+  "name": "click owner profile button",
   "keyword": "When "
 });
 formatter.step({
-  "line": 8,
-  "name": "fill password field with data \"qwerty\"",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 9,
-  "name": "click login button",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 10,
-  "name": "see modal successfully login",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 11,
-  "name": "click OK button modal",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "LoginStep.adminIsAlreadyOnTheLoginPage()"
-});
-formatter.result({
-  "duration": 111200,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "admin2@mail.com",
-      "offset": 42
-    }
-  ],
-  "location": "LoginStep.adminFillEmailAddressFieldWithDataEmail(String)"
-});
-formatter.result({
-  "duration": 264414800,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "qwerty",
-      "offset": 31
-    }
-  ],
-  "location": "LoginStep.fillPasswordFieldWithData(String)"
-});
-formatter.result({
-  "duration": 201740900,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginStep.clickLoginButton()"
-});
-formatter.result({
-  "duration": 88551300,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginStep.seeModalSuccessfullyLogin()"
-});
-formatter.result({
-  "duration": 2766308000,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginStep.clickOkButtonModal()"
-});
-formatter.result({
-  "duration": 1549539600,
-  "status": "passed"
-});
-formatter.scenario({
   "line": 29,
-  "name": "Admin goto schedule page",
-  "description": "",
-  "id": "home-page;admin-goto-schedule-page",
-  "type": "scenario",
-  "keyword": "Scenario"
-});
-formatter.step({
-  "line": 30,
-  "name": "admin is already on home page",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 31,
-  "name": "click my schedule button",
-  "keyword": "When "
+  "name": "owner click my venues button",
+  "keyword": "And "
 });
 formatter.match({
-  "location": "HomePageStep.adminIsAlreadyOnHomePage()"
+  "location": "OwnerHomePageStep.ownerIsAlreadyOnHomePage()"
 });
 formatter.result({
-  "duration": 69200,
+  "duration": 1259600,
   "status": "passed"
 });
 formatter.match({
-  "location": "HomePageStep.clickPayScheduleButton()"
+  "location": "OwnerHomePageStep.clickOwnerProfileButton()"
 });
 formatter.result({
-  "duration": 60623500,
+  "duration": 71299900,
   "status": "passed"
+});
+formatter.match({
+  "location": "OwnerProfilePageStep.ownerClickMyVenuesButton()"
+});
+formatter.result({
+  "duration": 4587500,
+  "error_message": "java.lang.NullPointerException\r\n\tat StepDefinition.OwnerProfilePageStep.ownerClickMyVenuesButton(OwnerProfilePageStep.java:32)\r\n\tat ✽.And owner click my venues button(features/OwnerProfilePage.feature:29)\r\n",
+  "status": "failed"
 });
 formatter.after({
-  "duration": 5779979100,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 3043918200,
-  "status": "passed"
-});
-formatter.background({
-  "line": 5,
-  "name": "",
-  "description": "",
-  "type": "background",
-  "keyword": "Background"
-});
-formatter.step({
-  "line": 6,
-  "name": "admin is already on login page",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 7,
-  "name": "admin fill email address field with data \"admin2@mail.com\"",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 8,
-  "name": "fill password field with data \"qwerty\"",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 9,
-  "name": "click login button",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 10,
-  "name": "see modal successfully login",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 11,
-  "name": "click OK button modal",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "LoginStep.adminIsAlreadyOnTheLoginPage()"
-});
-formatter.result({
-  "duration": 54600,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "admin2@mail.com",
-      "offset": 42
-    }
-  ],
-  "location": "LoginStep.adminFillEmailAddressFieldWithDataEmail(String)"
-});
-formatter.result({
-  "duration": 305628900,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "qwerty",
-      "offset": 31
-    }
-  ],
-  "location": "LoginStep.fillPasswordFieldWithData(String)"
-});
-formatter.result({
-  "duration": 144753800,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginStep.clickLoginButton()"
-});
-formatter.result({
-  "duration": 145322100,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginStep.seeModalSuccessfullyLogin()"
-});
-formatter.result({
-  "duration": 2790351600,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginStep.clickOkButtonModal()"
-});
-formatter.result({
-  "duration": 1619833300,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 33,
-  "name": "Admin logout form segoroapp",
-  "description": "",
-  "id": "home-page;admin-logout-form-segoroapp",
-  "type": "scenario",
-  "keyword": "Scenario"
-});
-formatter.step({
-  "line": 34,
-  "name": "admin is already on home page",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 35,
-  "name": "click logout button",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "HomePageStep.adminIsAlreadyOnHomePage()"
-});
-formatter.result({
-  "duration": 54600,
-  "status": "passed"
-});
-formatter.match({
-  "location": "HomePageStep.clickLogoutButton()"
-});
-formatter.result({
-  "duration": 99298400,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 5847349800,
-  "status": "passed"
-});
-formatter.uri("features/Login.feature");
-formatter.feature({
-  "line": 2,
-  "name": "Login Page",
-  "description": "Login to page SegoroAPP as ADMIN",
-  "id": "login-page",
-  "keyword": "Feature",
-  "tags": [
-    {
-      "line": 1,
-      "name": "@Login"
-    }
-  ]
-});
-formatter.before({
-  "duration": 3106909000,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 6,
-  "name": "Admin success login with valid username and password",
-  "description": "",
-  "id": "login-page;admin-success-login-with-valid-username-and-password",
-  "type": "scenario",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "line": 5,
-      "name": "@Positive"
-    }
-  ]
-});
-formatter.step({
-  "line": 7,
-  "name": "admin is already on login page",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 8,
-  "name": "admin fill email address field with data \"admin2@mail.com\"",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 9,
-  "name": "fill password field with data \"qwerty\"",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 10,
-  "name": "click login button",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 11,
-  "name": "see modal successfully login",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 12,
-  "name": "click OK button modal",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "LoginStep.adminIsAlreadyOnTheLoginPage()"
-});
-formatter.result({
-  "duration": 122000,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "admin2@mail.com",
-      "offset": 42
-    }
-  ],
-  "location": "LoginStep.adminFillEmailAddressFieldWithDataEmail(String)"
-});
-formatter.result({
-  "duration": 315395200,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "qwerty",
-      "offset": 31
-    }
-  ],
-  "location": "LoginStep.fillPasswordFieldWithData(String)"
-});
-formatter.result({
-  "duration": 195236500,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginStep.clickLoginButton()"
-});
-formatter.result({
-  "duration": 89106000,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginStep.seeModalSuccessfullyLogin()"
-});
-formatter.result({
-  "duration": 2767536300,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginStep.clickOkButtonModal()"
-});
-formatter.result({
-  "duration": 2185189400,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 5735737700,
+  "duration": 5756453700,
   "status": "passed"
 });
 });

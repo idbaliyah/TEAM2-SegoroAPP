@@ -3,8 +3,8 @@
     Admin on home page
 
     Background:
-      Given admin is already on login page
-      When admin fill email address field with data "admin2@mail.com"
+      Given user is already on login page
+      When user fill email address field with data "admin2@mail.com"
       And fill password field with data "qwerty"
       And click login button
       Then see modal successfully login

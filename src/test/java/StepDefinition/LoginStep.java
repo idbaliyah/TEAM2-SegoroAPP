@@ -14,13 +14,13 @@ public class LoginStep {
         super();
         this.webDriver = Hooks.webDriver;
     }
-    @Given("admin is already on login page")
-    public void adminIsAlreadyOnTheLoginPage() {
+    @Given("user is already on login page")
+    public void userIsAlreadyOnTheLoginPage() {
         loginPage = new LoginPage(webDriver);
     }
 
-    @When("admin fill email address field with data \"(.*)\"")
-    public void adminFillEmailAddressFieldWithDataEmail(String email) {
+    @When("user fill email address field with data \"(.*)\"")
+    public void userFillEmailAddressFieldWithDataEmail(String email) {
         loginPage.setEmail(email);
     }
 
