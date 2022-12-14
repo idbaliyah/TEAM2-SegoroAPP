@@ -1,2 +1,5 @@
+com\idbaliyah\pageObject\OwnerVenuePage.class
+com\idbaliyah\pageObject\OwnerHomePage.class
 com\idbaliyah\pageObject\HomePage.class
+com\idbaliyah\pageObject\OwnerProfilePage.class
 com\idbaliyah\pageObject\LoginPage.class
