@@ -7,42 +7,42 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class OwnerHomePage {
+public class UserHomePage {
     public static WebDriver driver;
 
-    public OwnerHomePage(WebDriver driver) {
+    public UserHomePage(WebDriver driver) {
         PageFactory.initElements(driver, this);
         this.driver = driver;
     }
     private By venueButtonMenu = By.xpath("//a[.='Venue']");
     private By profileButtonMenu = By.xpath("//a[.='User1']");
     private By historyButtonMenu = By.xpath("//div[.='Booking History']");
-    private By ownerPayVenueMenu = By.xpath("//div[@class='w-75 mx-auto row']/div[contains(.,'Pay Venue')]");
-    private By ownerMyScheduleMenu = By.xpath("//div[@class='w-75 mx-auto row']/div[contains(.,'My Schedule')]");
-    private By ownerLogoutButtonMenu = By.cssSelector("[height='30']");
+    private By userPayVenueMenu = By.xpath("//div[@class='w-75 mx-auto row']/div[contains(.,'Pay Venue')]");
+    private By userMyScheduleMenu = By.xpath("//div[@class='w-75 mx-auto row']/div[contains(.,'My Schedule')]");
+    private By userLogoutButtonMenu = By.cssSelector("[height='30']");
 
     public void clickVenueButtonMenu() {
         driver.findElement(venueButtonMenu).click();
     }
 
-    public void clickOwnerButtonMenu(){
+    public void clickUserButtonMenu(){
         driver.findElement(profileButtonMenu).click();
     }
 
-    public void clickOwnerHistoryMenu(){
+    public void clickUserHistoryMenu(){
         driver.findElement(historyButtonMenu).click();
     }
 
-    public void clickOwnerPayVenueMenu(){
-        driver.findElement(ownerPayVenueMenu).click();
+    public void clickUserPayVenueMenu(){
+        driver.findElement(userPayVenueMenu).click();
     }
 
-    public void clickOwnerMyScheduleMenu(){
-        driver.findElement(ownerMyScheduleMenu).click();
+    public void clickUserMyScheduleMenu(){
+        driver.findElement(userMyScheduleMenu).click();
     }
 
-    public void clickOwnerLogoutButtonMenu() {
-        driver.findElement(ownerLogoutButtonMenu).click();
+    public void clickUserLogoutButtonMenu() {
+        driver.findElement(userLogoutButtonMenu).click();
     }
 
     public void waitLogoutPopUp(){

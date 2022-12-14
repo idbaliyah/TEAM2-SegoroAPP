@@ -1,129 +1,514 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="61" failures="0" name="StepDefinition.RunTest" time="40.696" errors="0" skipped="0">
+<testsuite tests="69" failures="0" name="StepDefinition.RunTest" time="7.234" errors="12" skipped="5">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\bin"/>
-    <property name="java.vm.version" value="25.202-b08"/>
+    <property name="java.vm.version" value="11.0.17+10-LTS-269"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.17\bin"/>
+    <property name="user.country.format" value="ID"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:/Users/win10/Documents/TEAM2-SegoroAPP"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="D:\SaucedemoTesting"/>
-    <property name="java.vendor.url" value="http://java.oracle.com/"/>
-    <property name="path.separator" value=";"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="sun.os.patch.level" value=""/>
     <property name="user.script" value=""/>
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="D:\SaucedemoTesting"/>
-    <property name="java.runtime.version" value="1.8.0_202-b08"/>
+    <property name="user.dir" value="C:\Users\win10\Documents\TEAM2-SegoroAPP"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="11.0.17+10-LTS-269"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\endorsed"/>
     <property name="os.arch" value="amd64"/>
-    <property name="java.io.tmpdir" value="C:\Users\Thinkpad\AppData\Local\Temp\"/>
+    <property name="java.io.tmpdir" value="C:\Users\win10\AppData\Local\Temp\"/>
     <property name="line.separator" value="
 "/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\apache-maven-3.8.6\bin\m2.conf"/>
+    <property name="classworlds.conf" value="C:/Program Files/apache-maven-3.8.6/bin/m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_202\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_202\bin;C:\apache-maven-3.8.6\bin;C:\Users\Thinkpad\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.4\bin;;."/>
-    <property name="maven.conf" value="C:\apache-maven-3.8.6/conf"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\win10\bin;C:\Program Files\apache-maven-3.8.6\bin;C:\Program Files\Java\jdk1.8.0_351\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Users\win10\AppData\Local\Android\Sdk\tools;C:\Users\win10\AppData\Local\Android\Sdk\platform-tools;C:\Windows\System32;C:\Program Files\nodejs;C:\Program Files\Java\jdk-11.0.17;C:\Users\win10\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.1\bin;C:\Program Files\JetBrains\IntelliJ IDEA Educational Edition 2022.1.3\bin;C:\Users\win10\AppData\Roaming\npm;."/>
+    <property name="maven.conf" value="C:/Program Files/apache-maven-3.8.6/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="os.version" value="10.0"/>
-    <property name="library.jansi.path" value="C:\apache-maven-3.8.6\lib\jansi-native"/>
-    <property name="user.home" value="C:\Users\Thinkpad"/>
+    <property name="library.jansi.path" value="C:/Program Files/apache-maven-3.8.6/lib/jansi-native"/>
+    <property name="user.home" value="C:\Users\win10"/>
     <property name="user.timezone" value="Asia/Bangkok"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
-    <property name="java.specification.version" value="1.8"/>
     <property name="file.encoding" value="Cp1252"/>
-    <property name="user.name" value="Thinkpad"/>
-    <property name="java.class.path" value="C:\apache-maven-3.8.6\boot\plexus-classworlds-2.6.0.jar"/>
-    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="win10"/>
+    <property name="java.class.path" value="C:/Program Files/apache-maven-3.8.6/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="11"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_202\jre"/>
     <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean verify"/>
-    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.17"/>
     <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language.format" value="id"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.version" value="1.8.0_202"/>
-    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
-    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_202\jre\classes"/>
-    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.version" value="11.0.17"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="C:\apache-maven-3.8.6"/>
+    <property name="sun.stderr.encoding" value="cp850"/>
+    <property name="maven.home" value="C:\Program Files\apache-maven-3.8.6"/>
     <property name="file.separator" value="\"/>
-    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
-    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.version.date" value="2022-10-18"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="sun.stdout.encoding" value="cp850"/>
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="Scenario: Admin goto venue page" name="Given admin is already on login page" time="0.003"/>
-  <testcase classname="Scenario: Admin goto venue page" name="When admin fill email address field with data &quot;admin2@mail.com&quot;" time="0.002"/>
-  <testcase classname="Scenario: Admin goto venue page" name="And fill password field with data &quot;qwerty&quot;" time="0"/>
-  <testcase classname="Scenario: Admin goto venue page" name="And click login button" time="0.001"/>
-  <testcase classname="Scenario: Admin goto venue page" name="Then see modal successfully login" time="0"/>
-  <testcase classname="Scenario: Admin goto venue page" name="When click OK button modal" time="0"/>
-  <testcase classname="Scenario: Admin goto venue page" name="Given admin is already on home page" time="0"/>
-  <testcase classname="Scenario: Admin goto venue page" name="When click venue button" time="0"/>
-  <testcase classname="Scenario: Admin goto venue page" name="Scenario: Admin goto venue page" time="5.871"/>
-  <testcase classname="Scenario: Admin goto admin page" name="Given admin is already on login page" time="0"/>
-  <testcase classname="Scenario: Admin goto admin page" name="When admin fill email address field with data &quot;admin2@mail.com&quot;" time="0"/>
-  <testcase classname="Scenario: Admin goto admin page" name="And fill password field with data &quot;qwerty&quot;" time="0"/>
-  <testcase classname="Scenario: Admin goto admin page" name="And click login button" time="0"/>
-  <testcase classname="Scenario: Admin goto admin page" name="Then see modal successfully login" time="0"/>
-  <testcase classname="Scenario: Admin goto admin page" name="When click OK button modal" time="0"/>
-  <testcase classname="Scenario: Admin goto admin page" name="Given admin is already on home page" time="0"/>
-  <testcase classname="Scenario: Admin goto admin page" name="When click admin button" time="0"/>
-  <testcase classname="Scenario: Admin goto admin page" name="Scenario: Admin goto admin page" time="5.867"/>
-  <testcase classname="Scenario: Admin goto order history page" name="Given admin is already on login page" time="0"/>
-  <testcase classname="Scenario: Admin goto order history page" name="When admin fill email address field with data &quot;admin2@mail.com&quot;" time="0"/>
-  <testcase classname="Scenario: Admin goto order history page" name="And fill password field with data &quot;qwerty&quot;" time="0"/>
-  <testcase classname="Scenario: Admin goto order history page" name="And click login button" time="0"/>
-  <testcase classname="Scenario: Admin goto order history page" name="Then see modal successfully login" time="0"/>
-  <testcase classname="Scenario: Admin goto order history page" name="When click OK button modal" time="0"/>
-  <testcase classname="Scenario: Admin goto order history page" name="Given admin is already on home page" time="0"/>
-  <testcase classname="Scenario: Admin goto order history page" name="When click booking history button" time="0"/>
-  <testcase classname="Scenario: Admin goto order history page" name="Scenario: Admin goto order history page" time="5.772"/>
-  <testcase classname="Scenario: Admin goto pay venue page" name="Given admin is already on login page" time="0"/>
-  <testcase classname="Scenario: Admin goto pay venue page" name="When admin fill email address field with data &quot;admin2@mail.com&quot;" time="0"/>
-  <testcase classname="Scenario: Admin goto pay venue page" name="And fill password field with data &quot;qwerty&quot;" time="0"/>
-  <testcase classname="Scenario: Admin goto pay venue page" name="And click login button" time="0"/>
-  <testcase classname="Scenario: Admin goto pay venue page" name="Then see modal successfully login" time="0"/>
-  <testcase classname="Scenario: Admin goto pay venue page" name="When click OK button modal" time="0"/>
-  <testcase classname="Scenario: Admin goto pay venue page" name="Given admin is already on home page" time="0"/>
-  <testcase classname="Scenario: Admin goto pay venue page" name="When click pay venue button" time="0"/>
-  <testcase classname="Scenario: Admin goto pay venue page" name="Scenario: Admin goto pay venue page" time="5.818"/>
-  <testcase classname="Scenario: Admin goto schedule page" name="Given admin is already on login page" time="0"/>
-  <testcase classname="Scenario: Admin goto schedule page" name="When admin fill email address field with data &quot;admin2@mail.com&quot;" time="0"/>
-  <testcase classname="Scenario: Admin goto schedule page" name="And fill password field with data &quot;qwerty&quot;" time="0"/>
-  <testcase classname="Scenario: Admin goto schedule page" name="And click login button" time="0"/>
-  <testcase classname="Scenario: Admin goto schedule page" name="Then see modal successfully login" time="0"/>
-  <testcase classname="Scenario: Admin goto schedule page" name="When click OK button modal" time="0"/>
-  <testcase classname="Scenario: Admin goto schedule page" name="Given admin is already on home page" time="0"/>
-  <testcase classname="Scenario: Admin goto schedule page" name="When click my schedule button" time="0"/>
-  <testcase classname="Scenario: Admin goto schedule page" name="Scenario: Admin goto schedule page" time="5.774"/>
-  <testcase classname="Scenario: Admin logout form segoroapp" name="Given admin is already on login page" time="0"/>
-  <testcase classname="Scenario: Admin logout form segoroapp" name="When admin fill email address field with data &quot;admin2@mail.com&quot;" time="0"/>
-  <testcase classname="Scenario: Admin logout form segoroapp" name="And fill password field with data &quot;qwerty&quot;" time="0"/>
-  <testcase classname="Scenario: Admin logout form segoroapp" name="And click login button" time="0"/>
-  <testcase classname="Scenario: Admin logout form segoroapp" name="Then see modal successfully login" time="0"/>
-  <testcase classname="Scenario: Admin logout form segoroapp" name="When click OK button modal" time="0"/>
-  <testcase classname="Scenario: Admin logout form segoroapp" name="Given admin is already on home page" time="0"/>
-  <testcase classname="Scenario: Admin logout form segoroapp" name="When click logout button" time="0"/>
-  <testcase classname="Scenario: Admin logout form segoroapp" name="Scenario: Admin logout form segoroapp" time="5.849"/>
-  <testcase classname="Scenario: Admin success login with valid username and password" name="Given admin is already on login page" time="0"/>
-  <testcase classname="Scenario: Admin success login with valid username and password" name="When admin fill email address field with data &quot;admin2@mail.com&quot;" time="0"/>
-  <testcase classname="Scenario: Admin success login with valid username and password" name="And fill password field with data &quot;qwerty&quot;" time="0"/>
-  <testcase classname="Scenario: Admin success login with valid username and password" name="And click login button" time="0"/>
-  <testcase classname="Scenario: Admin success login with valid username and password" name="Then see modal successfully login" time="0"/>
-  <testcase classname="Scenario: Admin success login with valid username and password" name="When click OK button modal" time="0"/>
-  <testcase classname="Scenario: Admin success login with valid username and password" name="Scenario: Admin success login with valid username and password" time="5.739"/>
+  <testcase classname="Scenario: Owner goto owner profile page" name="Given user is already on login page" time="0.009"/>
+  <testcase classname="Scenario: Owner goto owner profile page" name="When user fill email address field with data &quot;user1@mail.com&quot;" time="0"/>
+  <testcase classname="Scenario: Owner goto owner profile page" name="And fill password field with data &quot;qwerty&quot;" time="0"/>
+  <testcase classname="Scenario: Owner goto owner profile page" name="And click login button" time="0"/>
+  <testcase classname="Scenario: Owner goto owner profile page" name="Then see modal successfully login" time="0"/>
+  <testcase classname="Scenario: Owner goto owner profile page" name="When click OK button modal" time="0"/>
+  <testcase classname="Scenario: Owner goto owner profile page" name="Given owner is already on home page" time="0"/>
+  <testcase classname="Scenario: Owner goto owner profile page" name="When click owner profile button" time="0"/>
+  <testcase classname="Scenario: Owner goto owner profile page" name="Scenario: Owner goto owner profile page" time="6.442"/>
+  <testcase classname="Scenario: Owner goto owner edit profile page" name="Given user is already on login page" time="0"/>
+  <testcase classname="Scenario: Owner goto owner edit profile page" name="When user fill email address field with data &quot;user1@mail.com&quot;" time="0"/>
+  <testcase classname="Scenario: Owner goto owner edit profile page" name="And fill password field with data &quot;qwerty&quot;" time="0"/>
+  <testcase classname="Scenario: Owner goto owner edit profile page" name="And click login button" time="0"/>
+  <testcase classname="Scenario: Owner goto owner edit profile page" name="Then see modal successfully login" time="0.001"/>
+  <testcase classname="Scenario: Owner goto owner edit profile page" name="When click OK button modal" time="0"/>
+  <testcase classname="Scenario: Owner goto owner edit profile page" name="Given owner is already on home page" time="0"/>
+  <testcase classname="Scenario: Owner goto owner edit profile page" name="When click owner profile button" time="0"/>
+  <testcase classname="Scenario: Owner goto owner edit profile page" name="And owner click edit profile button" time="0.009">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at StepDefinition.OwnerProfilePageStep.ownerClickEditProfileButton(OwnerProfilePageStep.java:20)
+	at ✽.And owner click edit profile button(features/OwnerProfilePage.feature:19)
+</error>
+  </testcase>
+  <testcase classname="Scenario: Owner goto owner edit profile page" name="Scenario: Owner goto owner edit profile page" time="0.01">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at StepDefinition.OwnerProfilePageStep.ownerClickEditProfileButton(OwnerProfilePageStep.java:20)
+	at ✽.And owner click edit profile button(features/OwnerProfilePage.feature:19)
+</error>
+  </testcase>
+  <testcase classname="Scenario: Owner goto owner edit profile page" name="Given user is already on login page" time="0"/>
+  <testcase classname="Scenario: Owner goto owner edit profile page" name="When user fill email address field with data &quot;user1@mail.com&quot;" time="0"/>
+  <testcase classname="Scenario: Owner goto owner edit profile page" name="And fill password field with data &quot;qwerty&quot;" time="0"/>
+  <testcase classname="Scenario: Owner goto owner edit profile page" name="And click login button" time="0"/>
+  <testcase classname="Scenario: Owner goto owner edit profile page" name="Then see modal successfully login" time="0"/>
+  <testcase classname="Scenario: Owner goto owner edit profile page" name="When click OK button modal" time="0"/>
+  <testcase classname="Scenario: Owner goto owner edit profile page" name="Given owner is already on home page" time="0"/>
+  <testcase classname="Scenario: Owner goto owner edit profile page" name="When click owner profile button" time="0"/>
+  <testcase classname="Scenario: Owner goto owner edit profile page" name="And owner click my schedule button" time="0">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at StepDefinition.OwnerProfilePageStep.ownerClickMyScheduleButton(OwnerProfilePageStep.java:26)
+	at ✽.And owner click my schedule button(features/OwnerProfilePage.feature:24)
+</error>
+  </testcase>
+  <testcase classname="Scenario: Owner goto owner edit profile page" name="Scenario: Owner goto owner edit profile page" time="0.001">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at StepDefinition.OwnerProfilePageStep.ownerClickMyScheduleButton(OwnerProfilePageStep.java:26)
+	at ✽.And owner click my schedule button(features/OwnerProfilePage.feature:24)
+</error>
+  </testcase>
+  <testcase classname="Scenario: Owner goto my venues page" name="Given user is already on login page" time="0.001"/>
+  <testcase classname="Scenario: Owner goto my venues page" name="When user fill email address field with data &quot;user1@mail.com&quot;" time="0.002"/>
+  <testcase classname="Scenario: Owner goto my venues page" name="And fill password field with data &quot;qwerty&quot;" time="0"/>
+  <testcase classname="Scenario: Owner goto my venues page" name="And click login button" time="0"/>
+  <testcase classname="Scenario: Owner goto my venues page" name="Then see modal successfully login" time="0.001"/>
+  <testcase classname="Scenario: Owner goto my venues page" name="When click OK button modal" time="0"/>
+  <testcase classname="Scenario: Owner goto my venues page" name="Given owner is already on home page" time="0"/>
+  <testcase classname="Scenario: Owner goto my venues page" name="When click owner profile button" time="0"/>
+  <testcase classname="Scenario: Owner goto my venues page" name="And owner click my venues button" time="0.001">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at StepDefinition.OwnerProfilePageStep.ownerClickMyVenuesButton(OwnerProfilePageStep.java:32)
+	at ✽.And owner click my venues button(features/OwnerProfilePage.feature:29)
+</error>
+  </testcase>
+  <testcase classname="Scenario: Owner goto my venues page" name="Scenario: Owner goto my venues page" time="0.001">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at StepDefinition.OwnerProfilePageStep.ownerClickMyVenuesButton(OwnerProfilePageStep.java:32)
+	at ✽.And owner click my venues button(features/OwnerProfilePage.feature:29)
+</error>
+  </testcase>
+  <testcase classname="Scenario: Owner goto my venues page" name="Given user is already on login page" time="0"/>
+  <testcase classname="Scenario: Owner goto my venues page" name="When user fill email address field with data &quot;user1@mail.com&quot;" time="0"/>
+  <testcase classname="Scenario: Owner goto my venues page" name="And fill password field with data &quot;qwerty&quot;" time="0"/>
+  <testcase classname="Scenario: Owner goto my venues page" name="And click login button" time="0"/>
+  <testcase classname="Scenario: Owner goto my venues page" name="Then see modal successfully login" time="0.018">
+    <error message="Expected condition failed: waiting for visibility of all elements located by By.xpath: //div[@class=&apos;swal-overlay swal-overlay--show-modal&apos;] (tried for 30 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all elements located by By.xpath: //div[@class=&apos;swal-overlay swal-overlay--show-modal&apos;] (tried for 30 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at com.idbaliyah.pageObject.LoginPage.waitSeeModal(LoginPage.java:35)
+	at StepDefinition.LoginStep.seeModalSuccessfullyLogin(LoginStep.java:39)
+	at ✽.Then see modal successfully login(features/OwnerProfilePage.feature:9)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.99)
+Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
+System info: host: &apos;DESKTOP-H54V1AL&apos;, ip: &apos;192.168.100.14&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.17&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [39880f1b8b24e44c2b117f82ac971f60, findElements {using=xpath, value=//div[@class=&apos;swal-overlay swal-overlay--show-modal&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.99, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\win10\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49325}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49325/devtoo..., se:cdpVersion: 108.0.5359.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 39880f1b8b24e44c2b117f82ac971f60
+	at jdk.internal.reflect.GeneratedConstructorAccessor8.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:179)
+	at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:102)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:397)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:389)
+	at org.openqa.selenium.support.ui.ExpectedConditions$8.apply(ExpectedConditions.java:224)
+	at org.openqa.selenium.support.ui.ExpectedConditions$8.apply(ExpectedConditions.java:221)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	at com.idbaliyah.pageObject.LoginPage.waitSeeModal(LoginPage.java:35)
+	at StepDefinition.LoginStep.seeModalSuccessfullyLogin(LoginStep.java:39)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at cucumber.runtime.Utils$1.call(Utils.java:40)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:34)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.runBackground(CucumberScenario.java:59)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:42)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:100)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</error>
+  </testcase>
+  <testcase classname="Scenario: Owner goto my venues page" name="Scenario: Owner goto my venues page" time="0.023">
+    <error message="Expected condition failed: waiting for visibility of all elements located by By.xpath: //div[@class=&apos;swal-overlay swal-overlay--show-modal&apos;] (tried for 30 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all elements located by By.xpath: //div[@class=&apos;swal-overlay swal-overlay--show-modal&apos;] (tried for 30 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at com.idbaliyah.pageObject.LoginPage.waitSeeModal(LoginPage.java:35)
+	at StepDefinition.LoginStep.seeModalSuccessfullyLogin(LoginStep.java:39)
+	at ✽.Then see modal successfully login(features/OwnerProfilePage.feature:9)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.99)
+Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
+System info: host: &apos;DESKTOP-H54V1AL&apos;, ip: &apos;192.168.100.14&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.17&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [39880f1b8b24e44c2b117f82ac971f60, findElements {using=xpath, value=//div[@class=&apos;swal-overlay swal-overlay--show-modal&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.99, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\win10\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49325}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49325/devtoo..., se:cdpVersion: 108.0.5359.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 39880f1b8b24e44c2b117f82ac971f60
+	at jdk.internal.reflect.GeneratedConstructorAccessor8.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:179)
+	at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:102)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:397)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:389)
+	at org.openqa.selenium.support.ui.ExpectedConditions$8.apply(ExpectedConditions.java:224)
+	at org.openqa.selenium.support.ui.ExpectedConditions$8.apply(ExpectedConditions.java:221)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	at com.idbaliyah.pageObject.LoginPage.waitSeeModal(LoginPage.java:35)
+	at StepDefinition.LoginStep.seeModalSuccessfullyLogin(LoginStep.java:39)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at cucumber.runtime.Utils$1.call(Utils.java:40)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:34)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.runBackground(CucumberScenario.java:59)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:42)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:100)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</error>
+  </testcase>
+  <testcase classname="Scenario: Owner goto my venues page" name="When click OK button modal" time="0.024">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Owner goto my venues page" name="Given owner is already on home page" time="0.201">
+    <skipped/>
+    <system-out>
+  Background:                                                     &amp;#27;[90m# features/OwnerProfilePage.feature:4&amp;#27;[0m
+    &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32muser is already on login page&amp;#27;[0m                           &amp;#27;[90m# LoginStep.userIsAlreadyOnTheLoginPage()&amp;#27;[0m
+    &amp;#27;[32mWhen &amp;#27;[0m&amp;#27;[32muser fill email address field with data &quot;&amp;#27;[0m&amp;#27;[32m&amp;#27;[1muser1@mail.com&amp;#27;[0m&amp;#27;[32m&quot;&amp;#27;[0m &amp;#27;[90m# LoginStep.userFillEmailAddressFieldWithDataEmail(String)&amp;#27;[0m
+    &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mfill password field with data &quot;&amp;#27;[0m&amp;#27;[32m&amp;#27;[1mqwerty&amp;#27;[0m&amp;#27;[32m&quot;&amp;#27;[0m                    &amp;#27;[90m# LoginStep.fillPasswordFieldWithData(String)&amp;#27;[0m
+    &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mclick login button&amp;#27;[0m                                        &amp;#27;[90m# LoginStep.clickLoginButton()&amp;#27;[0m
+    &amp;#27;[31mThen &amp;#27;[0m&amp;#27;[31msee modal successfully login&amp;#27;[0m                             &amp;#27;[90m# LoginStep.seeModalSuccessfullyLogin()&amp;#27;[0m
+      &amp;#27;[31morg.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all elements located by By.xpath: //div[@class=&apos;swal-overlay swal-overlay--show-modal&apos;] (tried for 30 second(s) with 500 milliseconds interval)
+      	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+      	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+      	at com.idbaliyah.pageObject.LoginPage.waitSeeModal(LoginPage.java:35)
+      	at StepDefinition.LoginStep.seeModalSuccessfullyLogin(LoginStep.java:39)
+      	at ?.Then see modal successfully login(features/OwnerProfilePage.feature:9)
+      Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+      from unknown error: web view not found
+        (Session info: chrome=108.0.5359.99)
+      Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
+      System info: host: &apos;DESKTOP-H54V1AL&apos;, ip: &apos;192.168.100.14&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.17&apos;
+      Driver info: org.openqa.selenium.chrome.ChromeDriver
+      Command: [39880f1b8b24e44c2b117f82ac971f60, findElements {using=xpath, value=//div[@class=&apos;swal-overlay swal-overlay--show-modal&apos;]}]
+      Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.99, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\win10\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49325}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49325/devtoo..., se:cdpVersion: 108.0.5359.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+      Session ID: 39880f1b8b24e44c2b117f82ac971f60
+      	at jdk.internal.reflect.GeneratedConstructorAccessor8.newInstance(Unknown Source)
+      	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+      	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+      	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+      	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+      	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+      	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:179)
+      	at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:102)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:397)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:389)
+      	at org.openqa.selenium.support.ui.ExpectedConditions$8.apply(ExpectedConditions.java:224)
+      	at org.openqa.selenium.support.ui.ExpectedConditions$8.apply(ExpectedConditions.java:221)
+      	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+      	at com.idbaliyah.pageObject.LoginPage.waitSeeModal(LoginPage.java:35)
+      	at StepDefinition.LoginStep.seeModalSuccessfullyLogin(LoginStep.java:39)
+      	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+      	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+      	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+      	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+      	at cucumber.runtime.Utils$1.call(Utils.java:40)
+      	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+      	at cucumber.runtime.Utils.invoke(Utils.java:34)
+      	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)
+      	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+      	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+      	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+      	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+      	at cucumber.runtime.model.CucumberScenario.runBackground(CucumberScenario.java:59)
+      	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:42)
+      	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)
+      	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+      	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+      	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+      	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+      	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+      	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+      	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+      	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+      	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+      	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)
+      	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)
+      	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+      	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+      	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+      	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+      	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+      	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+      	at cucumber.api.junit.Cucumber.run(Cucumber.java:100)
+      	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+      	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+      	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+      	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+      	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+      	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+      	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+      	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+      	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+      	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+      	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+      	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+      &amp;#27;[0m
+    &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mclick OK button modal&amp;#27;[0m                                    &amp;#27;[90m# LoginStep.clickOkButtonModal()&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Scenario: Owner goto my venues page" name="When click owner profile button" time="0.201">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Owner goto my venues page" name="And owner click my booking list button" time="0.201">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Owner logout from Profile page" name="Given user is already on login page" time="0"/>
+  <testcase classname="Scenario: Owner logout from Profile page" name="When user fill email address field with data &quot;user1@mail.com&quot;" time="0"/>
+  <testcase classname="Scenario: Owner logout from Profile page" name="And fill password field with data &quot;qwerty&quot;" time="0"/>
+  <testcase classname="Scenario: Owner logout from Profile page" name="And click login button" time="0"/>
+  <testcase classname="Scenario: Owner logout from Profile page" name="Then see modal successfully login" time="0"/>
+  <testcase classname="Scenario: Owner logout from Profile page" name="When click OK button modal" time="0"/>
+  <testcase classname="Scenario: Owner logout from Profile page" name="Given owner is already on home page" time="0"/>
+  <testcase classname="Scenario: Owner logout from Profile page" name="When click owner profile button" time="0"/>
+  <testcase classname="Scenario: Owner logout from Profile page" name="And owner click logout button on profile page" time="0">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at StepDefinition.OwnerProfilePageStep.ownerClickLogoutButtonOnProfilePage(OwnerProfilePageStep.java:43)
+	at ✽.And owner click logout button on profile page(features/OwnerProfilePage.feature:39)
+</error>
+  </testcase>
+  <testcase classname="Scenario: Owner logout from Profile page" name="Scenario: Owner logout from Profile page" time="0.005">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at StepDefinition.OwnerProfilePageStep.ownerClickLogoutButtonOnProfilePage(OwnerProfilePageStep.java:43)
+	at ✽.And owner click logout button on profile page(features/OwnerProfilePage.feature:39)
+</error>
+  </testcase>
+  <testcase classname="Scenario: Owner logout from Profile page" name="Given user is already on login page" time="0"/>
+  <testcase classname="Scenario: Owner logout from Profile page" name="When user fill email address field with data &quot;user1@mail.com&quot;" time="0"/>
+  <testcase classname="Scenario: Owner logout from Profile page" name="And fill password field with data &quot;qwerty&quot;" time="0"/>
+  <testcase classname="Scenario: Owner logout from Profile page" name="And click login button" time="0"/>
+  <testcase classname="Scenario: Owner logout from Profile page" name="Then see modal successfully login" time="0"/>
+  <testcase classname="Scenario: Owner logout from Profile page" name="When click OK button modal" time="0"/>
+  <testcase classname="Scenario: Owner logout from Profile page" name="Given owner is already on home page" time="0"/>
+  <testcase classname="Scenario: Owner logout from Profile page" name="When click owner profile button" time="0.019">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[.=&apos;User1&apos;]&quot;}
+  (Session info: chrome=108.0.5359.99)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
+System info: host: &apos;DESKTOP-H54V1AL&apos;, ip: &apos;192.168.100.14&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.17&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3a7d70f768f9b0296a8e335952fd15b2, findElement {using=xpath, value=//a[.=&apos;User1&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.99, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\win10\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52222}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52222/devtoo..., se:cdpVersion: 108.0.5359.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3a7d70f768f9b0296a8e335952fd15b2" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[.=&apos;User1&apos;]&quot;}
+  (Session info: chrome=108.0.5359.99)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
+System info: host: &apos;DESKTOP-H54V1AL&apos;, ip: &apos;192.168.100.14&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.17&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3a7d70f768f9b0296a8e335952fd15b2, findElement {using=xpath, value=//a[.=&apos;User1&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.99, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\win10\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52222}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52222/devtoo..., se:cdpVersion: 108.0.5359.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3a7d70f768f9b0296a8e335952fd15b2
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at com.idbaliyah.pageObject.OwnerHomePage.clickOwnerButtonMenu(OwnerHomePage.java:29)
+	at StepDefinition.OwnerHomePageStep.clickOwnerProfileButton(OwnerHomePageStep.java:36)
+	at ✽.When click owner profile button(features/OwnerProfilePage.feature:43)
+</error>
+  </testcase>
+  <testcase classname="Scenario: Owner logout from Profile page" name="Scenario: Owner logout from Profile page" time="0.032">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[.=&apos;User1&apos;]&quot;}
+  (Session info: chrome=108.0.5359.99)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
+System info: host: &apos;DESKTOP-H54V1AL&apos;, ip: &apos;192.168.100.14&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.17&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3a7d70f768f9b0296a8e335952fd15b2, findElement {using=xpath, value=//a[.=&apos;User1&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.99, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\win10\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52222}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52222/devtoo..., se:cdpVersion: 108.0.5359.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3a7d70f768f9b0296a8e335952fd15b2" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[.=&apos;User1&apos;]&quot;}
+  (Session info: chrome=108.0.5359.99)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
+System info: host: &apos;DESKTOP-H54V1AL&apos;, ip: &apos;192.168.100.14&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.17&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3a7d70f768f9b0296a8e335952fd15b2, findElement {using=xpath, value=//a[.=&apos;User1&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.99, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\win10\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52222}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52222/devtoo..., se:cdpVersion: 108.0.5359.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3a7d70f768f9b0296a8e335952fd15b2
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at com.idbaliyah.pageObject.OwnerHomePage.clickOwnerButtonMenu(OwnerHomePage.java:29)
+	at StepDefinition.OwnerHomePageStep.clickOwnerProfileButton(OwnerHomePageStep.java:36)
+	at ✽.When click owner profile button(features/OwnerProfilePage.feature:43)
+</error>
+  </testcase>
+  <testcase classname="Scenario: Owner logout from Profile page" name="And owner click profile image" time="0.032">
+    <skipped/>
+  </testcase>
 </testsuite>

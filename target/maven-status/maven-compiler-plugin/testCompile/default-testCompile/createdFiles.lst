@@ -1,4 +1,7 @@
+StepDefinition\LoginStep.class
+StepDefinition\OwnerHomePageStep.class
+StepDefinition\Hooks.class
 StepDefinition\RunTest.class
 StepDefinition\HomePageStep.class
-StepDefinition\LoginStep.class
-StepDefinition\Hooks.class
+StepDefinition\OwnerProfilePageStep.class
+StepDefinition\OwnerVenuePageStep.class
