@@ -1,4 +1,5 @@
+StepDefinition\Hooks.class
 StepDefinition\HomeStepDef.class
 StepDefinition\RunTest.class
 StepDefinition\LoginStepDef.class
-StepDefinition\Hooks.class
+StepDefinition\ProfileStepDef.class

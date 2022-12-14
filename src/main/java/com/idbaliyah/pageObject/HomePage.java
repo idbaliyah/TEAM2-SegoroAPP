@@ -1,7 +1,6 @@
 package com.idbaliyah.pageObject;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
@@ -63,8 +62,4 @@ public class HomePage {
         modalLogoutButton.click();
     }
 
-    public void scrollDownPage() {
-        JavascriptExecutor js = (JavascriptExecutor) driver;
-        js.executeScript("Window.scrollBy(0,3000)");
-    }
 }
