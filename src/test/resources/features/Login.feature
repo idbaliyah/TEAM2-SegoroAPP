@@ -2,7 +2,7 @@
   Feature: Login Page
     Login to page SegoroAPP as USER
 
-    @Positive @admin
+    @Positive @user
     Scenario: User success login with valid username and password
       Given user is already on login page
       When user fill email address field with data "user2@gmail.com"
